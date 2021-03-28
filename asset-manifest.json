@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-tailwind-glassmorphic/static/css/main.c4c5f57d.chunk.css",
+    "main.js": "/react-tailwind-glassmorphic/static/js/main.fc4f0c9f.chunk.js",
+    "main.js.map": "/react-tailwind-glassmorphic/static/js/main.fc4f0c9f.chunk.js.map",
+    "runtime-main.js": "/react-tailwind-glassmorphic/static/js/runtime-main.cd55b095.js",
+    "runtime-main.js.map": "/react-tailwind-glassmorphic/static/js/runtime-main.cd55b095.js.map",
+    "static/js/2.18b249a3.chunk.js": "/react-tailwind-glassmorphic/static/js/2.18b249a3.chunk.js",
+    "static/js/2.18b249a3.chunk.js.map": "/react-tailwind-glassmorphic/static/js/2.18b249a3.chunk.js.map",
+    "static/js/3.11f8ea7a.chunk.js": "/react-tailwind-glassmorphic/static/js/3.11f8ea7a.chunk.js",
+    "static/js/3.11f8ea7a.chunk.js.map": "/react-tailwind-glassmorphic/static/js/3.11f8ea7a.chunk.js.map",
+    "index.html": "/react-tailwind-glassmorphic/index.html",
+    "static/css/main.c4c5f57d.chunk.css.map": "/react-tailwind-glassmorphic/static/css/main.c4c5f57d.chunk.css.map",
+    "static/js/2.18b249a3.chunk.js.LICENSE.txt": "/react-tailwind-glassmorphic/static/js/2.18b249a3.chunk.js.LICENSE.txt",
+    "static/media/profile.200e0503.jpg": "/react-tailwind-glassmorphic/static/media/profile.200e0503.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd55b095.js",
+    "static/js/2.18b249a3.chunk.js",
+    "static/css/main.c4c5f57d.chunk.css",
+    "static/js/main.fc4f0c9f.chunk.js"
+  ]
+}
