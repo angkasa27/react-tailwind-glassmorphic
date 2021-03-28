@@ -10,10 +10,10 @@ export default function App() {
   // const history = useHistory();
 
   return (
-    <div className="bg-gradient-to-br from-red-500 via-purple-500  to-blue-500  text-white font-nunito min-h-screen min-w-screen">
+    <div className="bg-gradient-to-br from-red-500 via-purple-500  to-blue-500  text-white font-nunito min-h-screen min-w-screen p-5 md:p-0 overflow-hidden">
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/react-tailwind-mycomplaint" component={Home} />
+        <Route path="/react-tailwind-glassmorphic" component={Home} />
       </Switch>
     </div>
   );

@@ -14,12 +14,12 @@ export default function Home() {
 
 export function Nav() {
   return (
-    <header className="bg-window px-5 py-3 absolute right-1/4 left-12 bg-glass z-20 text-gray-800 bottom-12">
-      <div className="flex justify-between items-center">
-        <span className="cursor-pointer text-gray-800 hover:text-white transition-default text-2xl font-black">
+    <header className="bg-window sm:px-5 py-3 md:absolute right-1/4 left-12 bg-glass z-20 text-gray-800 bottom-12">
+      <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center">
+        <span className="cursor-pointer text-yellow-300 hover:text-yellow-400 transition-default text-2xl font-black w-full sm:w-auto text-center border-b sm:border-0 border-gray-800">
           angkasa27
         </span>
-        <div>
+        <div className="mt-2 sm:mt-0">
           <span className="transition-default nav-link mr-8">About</span>
           <span className="transition-default nav-link mr-8">Project</span>
           <span className="transition-default nav-link">Contact</span>
@@ -31,16 +31,19 @@ export function Nav() {
 
 export function Main() {
   return (
-    <main className="bg-window absolute top-16 bottom-16 left-28 right-28 bg-glass z-10">
+    <main className="bg-window md:absolute top-16 bottom-16 left-28 right-28 bg-glass z-10 mt-5 md:mt-0">
       <Header name="welcome.txt" />
-      <div className="flex flex-col justify-center h-full px-10 text-gray-800">
-        <h3 className="text-3xl mb-5 font-bold">Hello there !</h3>
-        <h1 className="text-7xl font-bold mb-5 text-yellow-400">
-          Front End Developer <br />
-          Graphic Designer
+      <div className="flex flex-col justify-center md:items-baseline h-full md:px-10  text-gray-800 my-14 md:my-0 md:w-2/3 ">
+        <h3 className="text-xl sm:text-2xl md:text-3xl mb-3 md:mb-5 font-bold md:text-left text-center">
+          Hi! I'm <span className="text-yellow-300">Dimas</span> Angkasa
+        </h3>
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold mb-3 md:mb-5 text-yellow-300 md:text-left text-center">
+          Graphic Designer <span className="text-gray-800">&</span>
+          <br className="md:hidden" /> Front End Developer
         </h1>
-        <p className="mb-28 text-xl font-semibold">
-          Love to learn new thing, Still looking for better chance,
+        <p className="md:mb-24 text-xl font-semibold md:text-left text-center">
+          Love to learn new thing, <br className="md:hidden" />
+          Still looking for better chance,
           <br />
           and still need to learn more
         </p>
@@ -51,9 +54,9 @@ export function Main() {
 
 export function Social() {
   return (
-    <div className="w-64 bg-glass bg-window absolute z-20 bottom-40 right-12">
+    <div className="md:w-64 bg-glass bg-window md:absolute z-20 bottom-40 right-12 mt-5 md:mt-0 w-full">
       <Header name="social" />
-      <div className="mx-10 my-8 flex justify-between text-gray-800">
+      <div className="md:mx-10 mx-24 my-8 flex justify-between text-gray-800">
         <span className="cursor-pointer transform hover:scale-150 hover:text-blue-500 transition-default">
           <svg
             role="img"
@@ -104,10 +107,7 @@ export function Social() {
 
 export function Profile() {
   return (
-    <div
-      className="bg-window z-20 w-auto right-56 top-1/4 absolute bg-glass transform hover:-translate-y-5 transition duration-500 ease-out
-}"
-    >
+    <div className="bg-window z-20 w-auto right-56 top-1/4 md:absolute bg-glass md:transform hover:-translate-y-5 transition duration-500 ease-out mt-5 md:mt-0">
       <Header name="profile.jpg" />
       <div className="px-10 py-8 m-2 flex flex-col items-center bg-white rounded-lg">
         {/* <img src={Picture} alt="Profile" className="w-48 rounded-lg" /> */}
