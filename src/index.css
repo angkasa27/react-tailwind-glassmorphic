@@ -19,17 +19,17 @@ code {
     monospace;
 }
 
+.bg-glass{
+  backdrop-filter: blur(10px);
+}
+
 /* Contoh */
 .input-span{
   @apply ml-1 text-sm text-gray-600
 }
 
 .transition-default{
-  @apply transition duration-200 ease-out
-}
-
-.bg-glass{
-  backdrop-filter: blur(10px);
+  @apply transition-all duration-200 ease-out
 }
 
 .nav-link{
@@ -37,5 +37,5 @@ code {
 }
 
 .bg-window{
-  @apply bg-white bg-opacity-20 shadow-lg rounded-xl border border-gray-800
+  @apply bg-white bg-opacity-20 shadow-lg rounded-xl 
 }

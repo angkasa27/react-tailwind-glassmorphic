@@ -21,13 +21,25 @@ module.exports = {
           '0%, 100%': { transform: 'translate(0, 0rem)' },
           '50%': { transform: 'translate(0, 1rem)' },
         },
-        bgDown: {
-          '0%, 100%': { transform: 'translate(0, 1rem)' },
-          '50%': { transform: 'translate(0, 0rem)' },
+        up: {
+          from: { transform: 'translate(0, 2rem)', opacity: '0%' },
+          to: { transform: 'translate(0, 0rem)', opacity: '100%' },
         },
-        navDown: {
-          '0%': { transform: 'translate(0, -4rem)' },
-          '100%': { transform: 'translate(0, 0rem)' },
+        down: {
+          from: { transform: 'translate(0, -2em)', opacity: '0%' },
+          to: { transform: 'translate(0, 0rem)', opacity: '100%' },
+        },
+        left: {
+          from: { transform: 'translate(2rem, 0)', opacity: '0%' },
+          to: { transform: 'translate(0, 0rem)', opacity: '100%' },
+        },
+        right: {
+          from: { transform: 'translate(-2em, 0)', opacity: '0%' },
+          to: { transform: 'translate(0, 0rem)', opacity: '100%' },
+        },
+        scaleUp: {
+          from: { transform: 'scale(.7,.7)', opacity: '0%' },
+          to: { transform: 'scale(1,1)', opacity: '100%' },
         },
         modalDown: {
           '0%': { transform: 'translate(-50%, -40%)', opacity: '0%' },
@@ -35,18 +47,13 @@ module.exports = {
         },
       },
       animation: {
-        upDown: 'upDown 2s ease-in-out infinite',
-        bgUp: 'bgUp 15s ease-in-out infinite',
-        bgDown: 'bgDown 15s ease-in-out infinite',
-        navDown: 'navDown .2s ease-out',
+        upDown: 'upDown 5s ease-in-out infinite',
+        itemUp: 'up 0.5s ease-in-out',
+        itemDown: 'down 0.5s ease-in-out',
+        itemLeft: 'left 0.5s ease-in-out',
+        itemRight: 'right 0.5s ease-in-out',
+        scale: 'scaleUp 0.5s ease-in-out',
         modalDown: 'modalDown .3s ease-out',
-      },
-      borderRadius: {
-        xl: '1rem',
-        '2xl': '2rem',
-        '3xl': '3rem',
-        '4xl': '4rem',
-        '5xl': '5rem',
       },
       scale: {
         165: '1.65',
@@ -54,19 +61,27 @@ module.exports = {
         175: '1.75',
         200: '2',
       },
-      rotate: {
-        20: '20deg',
-        25: '25deg',
-      },
       fontSize: {
         '12xl': '12rem',
         '15xl': '15rem',
         '20xl': '20rem',
       },
+      inset: {
+        '1/6': '16.666667%',
+        '1/5': '20%',
+        '2/5': '40%',
+        '3/5': '60%',
+        '4/5': '80%',
+        '1/10': '10%',
+        '5/100': '5%',
+        '7/100': '7%',
+        '11/12': '91.666667%',
+        '5/6': '83.333333%',
+        '85/100': '85%',
+        '87/100': '87%',
+      },
     },
   },
-  variants: {
-    extend: { borderWidth: ['hover', 'focus'] },
-  },
+  variants: {},
   plugins: [],
 };
