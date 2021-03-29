@@ -29,7 +29,7 @@ export function Main({ children }) {
       }
     >
       <Header name="project" />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 w-full h-full p-5 overflow-y-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 w-full h-full p-5 overflow-y-auto">
         {children}
       </div>
     </main>
@@ -60,12 +60,12 @@ export function Windows({ data, idx }) {
     setTimeout(() => {
       setClasses(' animate-scale');
     }, idx * 100 + 100);
-  }, []);
+  }, [idx]);
 
   return (
     <span
       className={
-        ' hover:bg-gray-800 hover:bg-opacity-10 rounded-xl p-2 ' + classes
+        ' hover:bg-gray-800 hover:bg-opacity-10 rounded-xl p-4 ' + classes
       }
     >
       <div className="px-20 py-8 h-40 flex flex-col items-center bg-white rounded-lg ">
