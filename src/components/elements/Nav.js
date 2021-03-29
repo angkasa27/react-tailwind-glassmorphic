@@ -11,28 +11,28 @@ export default function Nav({ className }) {
     >
       <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center">
         <NavLink
-          to="/"
+          to="/react-tailwind-glassmorphic"
           className="cursor-pointer text-yellow-300 hover:text-yellow-400 transition-default text-2xl font-black w-full sm:w-auto text-center border-b sm:border-0"
         >
           angkasa27
         </NavLink>
         <div className="mt-2 sm:mt-0">
           <NavLink
-            to="/about"
+            to="/react-tailwind-glassmorphic/about"
             className="transition-default nav-link mr-8"
             activeClassName="bg-yellow-400 text-white"
           >
             About
           </NavLink>
           <NavLink
-            to="/project"
+            to="/react-tailwind-glassmorphic/project"
             className="transition-default nav-link mr-8"
             activeClassName="bg-yellow-400 text-white"
           >
             Project
           </NavLink>
           <NavLink
-            to="/contact"
+            to="/react-tailwind-glassmorphic/contact"
             className="transition-default nav-link"
             activeClassName="bg-yellow-400 text-white"
           >

@@ -22,28 +22,28 @@ module.exports = {
           '50%': { transform: 'translate(0, 1rem)' },
         },
         up: {
-          from: { transform: 'translate(0, 2rem)', opacity: '0%' },
-          to: { transform: 'translate(0, 0rem)', opacity: '100%' },
+          '0%': { transform: 'translate(0, 2rem)', opacity: '0' },
+          '100%': { transform: 'translate(0, 0rem)', opacity: '1' },
         },
         down: {
-          from: { transform: 'translate(0, -2em)', opacity: '0%' },
-          to: { transform: 'translate(0, 0rem)', opacity: '100%' },
+          '0%': { transform: 'translate(0, -2em)', opacity: '0' },
+          '100%': { transform: 'translate(0, 0rem)', opacity: '1' },
         },
         left: {
-          from: { transform: 'translate(2rem, 0)', opacity: '0%' },
-          to: { transform: 'translate(0, 0rem)', opacity: '100%' },
+          '0%': { transform: 'translate(2rem, 0)', opacity: '0' },
+          '100%': { transform: 'translate(0, 0rem)', opacity: '1' },
         },
         right: {
-          from: { transform: 'translate(-2em, 0)', opacity: '0%' },
-          to: { transform: 'translate(0, 0rem)', opacity: '100%' },
+          '0%': { transform: 'translate(-2em, 0)', opacity: '0' },
+          '100%': { transform: 'translate(0, 0rem)', opacity: '1' },
         },
         scaleUp: {
-          from: { transform: 'scale(.7,.7)', opacity: '0%' },
-          to: { transform: 'scale(1,1)', opacity: '100%' },
+          '0%': { transform: 'scale(.7,.7)', opacity: '0' },
+          '100%': { transform: 'scale(1,1)', opacity: '1' },
         },
         modalDown: {
-          '0%': { transform: 'translate(-50%, -40%)', opacity: '0%' },
-          '100%': { transform: 'translate(-50%, -50%)', opacity: '100%' },
+          '0%': { transform: 'translate(-50%, -40%)', opacity: '0' },
+          '100%': { transform: 'translate(-50%, -50%)', opacity: '1' },
         },
       },
       animation: {
