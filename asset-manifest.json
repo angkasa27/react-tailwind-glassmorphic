@@ -1,27 +1,31 @@
 {
   "files": {
     "main.css": "/react-tailwind-glassmorphic/static/css/main.ce007c13.chunk.css",
-    "main.js": "/react-tailwind-glassmorphic/static/js/main.2d0d333f.chunk.js",
-    "main.js.map": "/react-tailwind-glassmorphic/static/js/main.2d0d333f.chunk.js.map",
-    "runtime-main.js": "/react-tailwind-glassmorphic/static/js/runtime-main.27403caa.js",
-    "runtime-main.js.map": "/react-tailwind-glassmorphic/static/js/runtime-main.27403caa.js.map",
-    "static/js/2.8f020061.chunk.js": "/react-tailwind-glassmorphic/static/js/2.8f020061.chunk.js",
-    "static/js/2.8f020061.chunk.js.map": "/react-tailwind-glassmorphic/static/js/2.8f020061.chunk.js.map",
-    "static/js/3.55313b48.chunk.js": "/react-tailwind-glassmorphic/static/js/3.55313b48.chunk.js",
-    "static/js/3.55313b48.chunk.js.map": "/react-tailwind-glassmorphic/static/js/3.55313b48.chunk.js.map",
+    "main.js": "/react-tailwind-glassmorphic/static/js/main.665c51e4.chunk.js",
+    "main.js.map": "/react-tailwind-glassmorphic/static/js/main.665c51e4.chunk.js.map",
+    "runtime-main.js": "/react-tailwind-glassmorphic/static/js/runtime-main.3cfe5510.js",
+    "runtime-main.js.map": "/react-tailwind-glassmorphic/static/js/runtime-main.3cfe5510.js.map",
+    "static/js/2.f80f99f8.chunk.js": "/react-tailwind-glassmorphic/static/js/2.f80f99f8.chunk.js",
+    "static/js/2.f80f99f8.chunk.js.map": "/react-tailwind-glassmorphic/static/js/2.f80f99f8.chunk.js.map",
+    "static/js/3.bd062c1b.chunk.js": "/react-tailwind-glassmorphic/static/js/3.bd062c1b.chunk.js",
+    "static/js/3.bd062c1b.chunk.js.map": "/react-tailwind-glassmorphic/static/js/3.bd062c1b.chunk.js.map",
     "index.html": "/react-tailwind-glassmorphic/index.html",
     "static/css/main.ce007c13.chunk.css.map": "/react-tailwind-glassmorphic/static/css/main.ce007c13.chunk.css.map",
-    "static/js/2.8f020061.chunk.js.LICENSE.txt": "/react-tailwind-glassmorphic/static/js/2.8f020061.chunk.js.LICENSE.txt",
+    "static/js/2.f80f99f8.chunk.js.LICENSE.txt": "/react-tailwind-glassmorphic/static/js/2.f80f99f8.chunk.js.LICENSE.txt",
+    "static/media/40.f9d48547.jpg": "/react-tailwind-glassmorphic/static/media/40.f9d48547.jpg",
     "static/media/asaweb.b590477a.jpg": "/react-tailwind-glassmorphic/static/media/asaweb.b590477a.jpg",
+    "static/media/cegah.36980ac1.jpg": "/react-tailwind-glassmorphic/static/media/cegah.36980ac1.jpg",
     "static/media/codeDream.2fb4123b.jpg": "/react-tailwind-glassmorphic/static/media/codeDream.2fb4123b.jpg",
     "static/media/forest.6b1d06ff.jpg": "/react-tailwind-glassmorphic/static/media/forest.6b1d06ff.jpg",
+    "static/media/load-image.c1630201.svg": "/react-tailwind-glassmorphic/static/media/load-image.c1630201.svg",
     "static/media/mavicMini.cd5bacbc.jpg": "/react-tailwind-glassmorphic/static/media/mavicMini.cd5bacbc.jpg",
+    "static/media/pantang.03d64594.jpg": "/react-tailwind-glassmorphic/static/media/pantang.03d64594.jpg",
     "static/media/profile.a29fcfef.jpg": "/react-tailwind-glassmorphic/static/media/profile.a29fcfef.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.27403caa.js",
-    "static/js/2.8f020061.chunk.js",
+    "static/js/runtime-main.3cfe5510.js",
+    "static/js/2.f80f99f8.chunk.js",
     "static/css/main.ce007c13.chunk.css",
-    "static/js/main.2d0d333f.chunk.js"
+    "static/js/main.665c51e4.chunk.js"
   ]
 }
