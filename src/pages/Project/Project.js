@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/elements/Header';
 import { Data } from './constants';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+// import loadImage from '../../assets/load-image.svg';
 
 export default function Project() {
   return (
@@ -30,7 +32,7 @@ export function Main({ children }) {
         classes
       }
     >
-      <Header name="project" />
+      <Header name="project.txt" />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 w-full h-full p-5 overflow-y-auto">
         {children}
       </div>
@@ -57,9 +59,15 @@ export function Windows({ data, idx }) {
         classes
       }
     >
-      <img
+      {/* <img
         src={data.img}
         alt={data.name}
+        className="bg-white rounded-lg object-cover w-full h-36 md:h-48"
+      /> */}
+      <LazyLoadImage
+        alt={data.name}
+        effect="blur"
+        src={data.img}
         className="bg-white rounded-lg object-cover w-full h-36 md:h-48"
       />
       <p className="font-mono text-sm mt-2 text-center">{data.name}</p>

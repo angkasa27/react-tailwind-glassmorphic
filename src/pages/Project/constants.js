@@ -2,8 +2,26 @@ import asaweb from '../../assets/asaweb.jpg';
 import webCode from '../../assets/codeDream.jpg';
 import forest from '../../assets/forest.jpg';
 import mavicMini from '../../assets/mavicMini.jpg';
+import pantang from '../../assets/pantang.jpg';
+import revolusi from '../../assets/40.jpg';
+import cegah from '../../assets/cegah.jpg';
 
 export const Data = [
+  {
+    name: '[WEB] 4.0 - Revolusi Industri.html',
+    img: revolusi,
+    link: 'https://angkasa27.github.io/Web-Revolusi-Industri',
+  },
+  {
+    name: '[WEB] Cegah - HIV AIDS.html',
+    img: cegah,
+    link: 'https://angkasa27.github.io/Web-Cegah-HIV-Aids',
+  },
+  {
+    name: '[WEB] Pantang - Hari Pahlawan.html',
+    img: pantang,
+    link: 'https://angkasa27.github.io/Web-Pantang-Hari-Pahlawan/',
+  },
   {
     name: '[UI] ASA.jpg',
     img: asaweb,

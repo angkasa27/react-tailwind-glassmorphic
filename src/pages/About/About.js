@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Header from '../../components/elements/Header';
 import Picture from '../../assets/profile.jpg';
 import Social from '../../components/fragments/Social';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+// import loadImage from '../../assets/load-image.svg';
 
 export default function About() {
   return (
@@ -45,9 +47,10 @@ export function Main() {
         }
       >
         <div className="flex flex-col sm:flex-row mb-2 md:mb-3 items-center ">
-          <img
-            src={Picture}
+          <LazyLoadImage
             alt="profile"
+            effect="blur"
+            src={Picture}
             className="sm:w-36 sm:h-40 w-48 h-56 object-cover rounded-lg"
           />
           <div className="sm:ml-5 flex flex-col justify-center">
