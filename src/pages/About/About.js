@@ -140,7 +140,7 @@ export function Other() {
           target="_blank"
           rel="noreferrer"
         >
-          Certificate & Awward
+          Certificate & Award
         </a>
         <a
           href="https://drive.google.com/file/d/1zgQtkukmmfEn-mbfy6ikaQAybJIeC5ej/view?usp=sharing"
