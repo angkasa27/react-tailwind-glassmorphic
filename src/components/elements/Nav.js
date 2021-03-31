@@ -32,11 +32,11 @@ export default function Nav({ className }) {
             Project
           </NavLink>
           <NavLink
-            to="/react-tailwind-glassmorphic/contact"
+            to="/react-tailwind-glassmorphic/work"
             className="transition-default nav-link"
             activeClassName="bg-yellow-400 text-white"
           >
-            Contact
+            Work
           </NavLink>
         </div>
       </div>

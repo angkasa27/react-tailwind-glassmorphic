@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/elements/Header';
+import { Data } from './constants';
 
 export default function Project() {
   return (
@@ -76,14 +77,3 @@ export function Windows({ data, idx }) {
     </span>
   );
 }
-
-export const Data = [
-  { name: 'ASA Logo.png' },
-  { name: 'ASA Logo.png' },
-  { name: 'ASA Logo.png' },
-  { name: 'ASA Logo.png' },
-  { name: 'ASA Logo.png' },
-  { name: 'ASA Logo.png' },
-  { name: 'ASA Logo.png' },
-  { name: 'ASA Logo.png' },
-];

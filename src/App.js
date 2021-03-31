@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Project from './pages/Project';
+import About from './pages/About';
 import Err from './pages/404';
 import './App.css';
 import Nav from './components/elements/Nav';
@@ -33,13 +34,9 @@ export default function App() {
         <Route
           exact
           path="/react-tailwind-glassmorphic/about"
-          component={Err}
+          component={About}
         />
-        <Route
-          exact
-          path="/react-tailwind-glassmorphic/contact"
-          component={Err}
-        />
+        <Route exact path="/react-tailwind-glassmorphic/work" component={Err} />
         <Route path="/react-tailwind-glassmorphic" component={Home} />
       </Switch>
     </div>
