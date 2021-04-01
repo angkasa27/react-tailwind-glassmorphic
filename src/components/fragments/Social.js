@@ -11,7 +11,7 @@ export default function Social({
     setTimeout(() => {
       setClasses('  animate-itemUp ' + animation);
     }, 700);
-  }, []);
+  }, [animation]);
 
   return (
     <div
@@ -25,9 +25,7 @@ export default function Social({
       <Header name="social" />
       <div className="md:mx-10 mx-24 py-8 flex justify-between">
         <a
-          href="https://www.linkedin.com/in/dimas-angkasa-nurindra-a1750719b/"
-          target="_blank"
-          rel="noreferrer"
+
           className="cursor-pointer transform hover:scale-150 hover:text-blue-500 transition-default"
         >
           <svg

@@ -11,35 +11,49 @@ export const Data = [
     name: '[WEB] 4.0 - Revolusi Industri.html',
     img: revolusi,
     link: 'https://angkasa27.github.io/Web-Revolusi-Industri',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
   },
   {
     name: '[WEB] Cegah - HIV AIDS.html',
     img: cegah,
     link: 'https://angkasa27.github.io/Web-Cegah-HIV-Aids',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
   },
   {
     name: '[WEB] Pantang - Hari Pahlawan.html',
     img: pantang,
     link: 'https://angkasa27.github.io/Web-Pantang-Hari-Pahlawan/',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
   },
   {
     name: '[UI] ASA.jpg',
     img: asaweb,
     link: 'https://www.instagram.com/p/CCFLROIBocG/',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
   },
   {
     name: '[UI] Forest.jpg',
     img: forest,
     link: 'https://www.instagram.com/p/CCI_TXVhxD5/',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
   },
   {
     name: '[UI] Web Code.jpg',
     img: webCode,
     link: 'https://dribbble.com/shots/14545843-Simple-Web-Design',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
   },
   {
     name: '[UI] Mavic Mini.jpg',
     img: mavicMini,
     link: 'https://dribbble.com/shots/14545804-Mavic-Mini-UI-Design',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
   },
 ];

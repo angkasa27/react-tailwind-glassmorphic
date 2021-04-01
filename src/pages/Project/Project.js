@@ -3,14 +3,29 @@ import Header from '../../components/elements/Header';
 import { Data } from './constants';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 // import loadImage from '../../assets/load-image.svg';
+import Detail from './Detail';
 
 export default function Project() {
+  const [dataDetail, setDataDetail] = useState({});
+  const [openDetail, setOpenDetail] = useState(false);
+
   return (
     <div>
       <Main>
-        {Data.map((data, idx) => (
-          <Windows data={data} idx={idx} />
-        ))}
+        {openDetail ? (
+          <Detail data={dataDetail} setOpen={setOpenDetail} />
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 w-full h-full p-5 overflow-y-auto">
+            {Data.map((data, idx) => (
+              <Windows
+                data={data}
+                idx={idx}
+                setDetail={setDataDetail}
+                setOpen={setOpenDetail}
+              />
+            ))}
+          </div>
+        )}
       </Main>
     </div>
   );
@@ -33,14 +48,12 @@ export function Main({ children }) {
       }
     >
       <Header name="project.txt" />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 w-full h-full p-5 overflow-y-auto">
-        {children}
-      </div>
+      {children}
     </main>
   );
 }
 
-export function Windows({ data, idx }) {
+export function Windows({ data, idx, setDetail, setOpen }) {
   const [classes, setClasses] = useState(' invisible');
 
   useEffect(() => {
@@ -49,11 +62,14 @@ export function Windows({ data, idx }) {
     }, idx * 100 + 100);
   }, [idx]);
 
+  const openDetail = () => {
+    setDetail(data);
+    setOpen(true);
+  };
+
   return (
-    <a
-      href={data.link}
-      target="_blank"
-      rel="noreferrer"
+    <span
+      onClick={() => openDetail()}
       className={
         ' hover:bg-gray-800 hover:bg-opacity-10 rounded-lg p-4 cursor-pointer ' +
         classes
@@ -71,6 +87,6 @@ export function Windows({ data, idx }) {
         className="bg-white rounded-lg object-cover w-full h-36 md:h-48"
       />
       <p className="font-mono text-sm mt-2 text-center">{data.name}</p>
-    </a>
+    </span>
   );
 }
