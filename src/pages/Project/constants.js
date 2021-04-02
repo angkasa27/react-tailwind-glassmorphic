@@ -5,8 +5,32 @@ import mavicMini from '../../assets/mavicMini.jpg';
 import pantang from '../../assets/pantang.jpg';
 import revolusi from '../../assets/40.jpg';
 import cegah from '../../assets/cegah.jpg';
+import myComplaint from '../../assets/myComplaint.jpg';
+import socied from '../../assets/socied.jpg';
+import traveline from '../../assets/traveline.jpg';
 
 export const Data = [
+  {
+    name: '[WEB] MyComplaint - Aplikasi Pengaduan.html',
+    img: myComplaint,
+    link: 'https://angkasa27.github.io/react-tailwind-mycomplaint/',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
+  },
+  {
+    name: '[WEB] Socied - Social Media for Education.html',
+    img: socied,
+    link: 'https://socied.web.app',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
+  },
+  {
+    name: '[WEB] Traveline.html',
+    img: traveline,
+    link: 'https://traveline.web.app',
+    desc:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, qui. Inventore, similique, quam facilis impedit expedita eos ea voluptatem molestiae officiis cumque eveniet aperiam officia in hic. Placeat, est error?',
+  },
   {
     name: '[WEB] 4.0 - Revolusi Industri.html',
     img: revolusi,
